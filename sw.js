@@ -4,7 +4,7 @@
    - キャッシュ対象は自アプリの2ファイルのみ
    - バージョン更新時に旧キャッシュを完全削除                                  */
 "use strict";
-const CACHE = "aicxnav-v1.7.1";
+const CACHE = "aicxnav-v1.8.0";
 const ASSETS = ["./", "./index.html", "./sw.js"];
 
 self.addEventListener("install", e => {
